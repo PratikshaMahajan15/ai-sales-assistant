@@ -50,7 +50,7 @@ Every LLM call is traced in Langfuse.
 
 These examples were generated from a **fictional dataset**.
 
-- file:///C:/Users/Pratiksha/Downloads/files/sample_report.pdf
+- [Sample report (PDF)](docs/sample_report.pdf)
 - [Monthly sales trend, line chart (PDF)](docs/sample_line_chart.pdf)
 - [Revenue by region, pie chart (PDF)](docs/sample_pie_chart.pdf)
 
