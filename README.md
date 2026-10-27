@@ -2,7 +2,10 @@
 
 Ask business questions in plain English and get validated, read-only SQL, query results, charts and written reports. Built with Gemini, ClickHouse, Streamlit and Langfuse tracing.
 
-![Ask a question](docs/ask-question.png)
+This is a personal learning project, developed on my own to explore text-to-SQL with LLMs.
+
+<img width="1920" height="647" alt="ask-question" src="https://github.com/user-attachments/assets/38e87cc4-697e-49bf-9108-34b1e5297b95" />
+
 
 ## What it does
 
@@ -10,7 +13,7 @@ Ask business questions in plain English and get validated, read-only SQL, query 
 - **Generate Report tab:** describe the report you need in plain English, for example "Top products, revenue by region, and delivery status". The app breaks the request into sections, runs a query for each one, and builds a titled report with commentary. Reports can be exported as PDF.
 - **Schema-agnostic:** table and column names are discovered at runtime from ClickHouse system tables, so nothing about the database is hard-coded.
 
-![Generate a custom report](docs/generate-report.png)
+<img width="1920" height="597" alt="generate-report" src="https://github.com/user-attachments/assets/f1f612da-e6d6-4c8f-8817-e0bfe94e7409" />
 
 ## How it works
 
@@ -45,9 +48,9 @@ Every LLM call is traced in Langfuse.
 
 ## Sample outputs
 
-These examples were generated from a **fictional dataset**, not real company data.
+These examples were generated from a **fictional dataset**.
 
-- [Sample report (PDF)](docs/sample_report.pdf)
+- file:///C:/Users/Pratiksha/Downloads/files/sample_report.pdf
 - [Monthly sales trend, line chart (PDF)](docs/sample_line_chart.pdf)
 - [Revenue by region, pie chart (PDF)](docs/sample_pie_chart.pdf)
 
@@ -116,4 +119,3 @@ Without `--load`, the script only writes CSV files to `demo/data/`.
 ## Author
 
 Pratiksha Mahajan, [GitHub](https://github.com/PratikshaMahajan15) | [LinkedIn](https://www.linkedin.com/in/pratikshamahajan)
-
