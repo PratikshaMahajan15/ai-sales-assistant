@@ -116,6 +116,3 @@ Without `--load`, the script only writes CSV files to `demo/data/`.
 - Works best on schemas with clear, descriptive column names.
 - Reports depend on the LLM correctly planning sections, so unusual requests may need rephrasing.
 
-## Author
-
-Pratiksha Mahajan, [GitHub](https://github.com/PratikshaMahajan15) | [LinkedIn](https://www.linkedin.com/in/pratikshamahajan)
