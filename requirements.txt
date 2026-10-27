@@ -1,0 +1,11 @@
+clickhouse-connect
+google-genai
+python-dotenv
+sqlparse
+pandas
+streamlit
+plotly
+kaleido
+reportlab
+langfuse
+openinference-instrumentation-google-genai
